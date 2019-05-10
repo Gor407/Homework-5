@@ -1,0 +1,94 @@
+      //Homework 5 exersize 1
+/*  function recArray(arr){
+		let res = [];
+		if(arr.length === 0 || arr.length === 1 ) return [];
+		if(arr.length > 1){
+			let b = arr.slice(1);
+			res.push(b);
+			console.log(res);
+		}
+	  }
+	recArray([6, 78, "n", 0, 1]);          */
+	
+	
+	
+	
+	
+       //Homework 5 exersize 2 	  
+/*	   function recArr(arr){
+		  let res = [];
+		  function withRec(arr){
+          for(let i = 0 ; i < arr.length ; i ++){
+			  if(Array.isArray(arr[i])){
+				 withRec(arr[i]); 
+			  }else{
+				 res.push(arr[i]);
+			  }
+		    }
+		  }
+		  withRec(arr);
+		  console.log(res);
+	   }
+      recArr([[1,[3,4],[5,6]],10]);         */
+
+
+
+
+
+
+         //Homework 5 exersize 3
+ /*         function sumOfDig(value){
+            sum = 0;
+            while (value) {
+            sum += value % 10;
+            value = Math.floor(value / 10);
+           }
+	        let d =sum.toString();
+	        for(let i = 0 ; i < d.length ; i++){
+            console.log(d/i);
+        }
+     }
+               sumOfDig(4335);             */
+
+
+
+
+
+
+       //Homework 5 exersize 4
+/*	  function newArray(arr, n) {
+		if(n!= 0) {
+			if(n > 0) {
+				arr.push(arr.shift());
+				return newArray(arr,--n);
+			} else {
+				arr.unshift(arr.pop());
+				return newArray(arr,++n);
+			}
+		}
+		console.log(arr);
+	}
+      newArray([1, 2, 3, 4, 5, 6, 7, 8], 3);       */
+
+  
+
+
+
+
+        //Homework 5 exersize 6
+ /*   function sortArr(arr) {	
+	   let isTrue = arr.filter(function(book) {
+		  return book.readStatus;
+	   })
+	      return isTrue.sort(function(a, b) {
+		  return a.percent - b.percent;
+	  })
+  }
+
+sortArr([{ book: "Catcher in the Rye", readStatus: true, percent: 40},
+{ book: "Animal Farm", readStatus: true, percent: 20},
+{ book: "Solaris", readStatus: false, percent: 90 },
+{ book: "The Fall", readStatus: true, percent: 50 },
+{ book: "White Nights", readStatus: false, percent: 60 } ,
+{ book: "After Dark", readStatus: true, percent: 70 }]);
+*/
